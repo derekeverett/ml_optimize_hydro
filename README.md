@@ -1,6 +1,6 @@
 # ml\_optimize\_hydro
 
-This repository contains machine learning models useful for the acceleration and surroagtion of physical simulations in two spaitla dimensions, e.g. fluid dynamics computations.
+This repository contains machine learning models useful for the acceleration and surrogation of physical simulations in two spatial dimensions, e.g. fluid dynamics computations.
 
 
 ## Generating fluctuating initial conditions (`predict_profiles`)
