@@ -8,3 +8,5 @@ cd ..
 
 #make a directory to store trained GANs
 mkdir generators
+mkdir generated_profiles
+mkdir plots
