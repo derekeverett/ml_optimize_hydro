@@ -237,8 +237,7 @@ class WGAN():
     def sample_smooth_predictions(self, n_samples=1):
         noise = np.random.normal(0, 1, (n_samples, self.latent_dim))
         gen_imgs = self.generator.predict(noise)
-        
-        smooth_imgs = [filters.gaussian(img, sigma=2, preserve_range=True) for img in gen_imgs]
+        smooth_imgs = np.array([filters.gaussian(img, sigma=2, preserve_range=True) for img in gen_imgs])
         return smooth_imgs
 
 
